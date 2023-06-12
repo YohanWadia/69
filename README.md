@@ -6,26 +6,26 @@ when we extract the last digit 4... and save it to the array...
 the array will look like [0][0][0][0][4][0][0][0][0][0]
 and the number is reduced to 1234
 
-But now there is another 4!?
+**But now there is another 4!?**
 At this time we need an if condition that checks
 if the box with index no.4 already has a value of 4 stored in it...
 that means this new digit, is a duplicate.
 Hence this number fails the test... it must break the loop 
 
+**Problem with 0**
+Incase the digit you are going to save to the array is 0
+then the above if condition will fail... because
+the value at index 0 is already having a default value ie = 0.
+At this time the digit being saved(0) is being checked with
+the value in box [0] which is also 0... and hence it will think
+we are saving a duplicate! hence after we make the array we have to
+initialize array[0] to another numbere.. eg. array[0] = -1;
+
+### <b>Final Pseudo code should be something like this<b> ======================================
+ 
 
 
-We need to declare an array of type int with a space of 10 boxes
-so by default it will look something like this [0][0][0][0][0][0][0][0][0][0]
-ONLY the perfect number will fill the array up like this [0][1][2][3][4][5][6][7][8][9]... SINCE IT WILL HAVE ALL 10 DIGITS
-any other number that has a repeating digit must FAIL & the loop should break since it doesnt
-satisfy the solution for the problem.
 
-So on every digit extaction save that digit to its own box.
-Like if you extracted digit 5... then array[5]=5; 
-And now the value of 5 has been saved to the array's box 5(index)
-if you extracted digit 9... then array[9]=9; 
-And now the value of 9 has been saved to the array's box 9(index)
 
-### <b>Example<b> ======================================
- Say the number is 8795460123. (has all 10 digits)
- this is what should happen when you loop 10 times
+
+</pre>
