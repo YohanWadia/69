@@ -38,7 +38,7 @@ long num = (cube * X) + sq; // X stands for 10? or 100? or 1000? or 10000?
 declare an array of 10 boxes
 initialize the value at index 0 to -1
 
- for( int j = start with 0;  ends at <10; increment by 1){
+[ for( int j = start with 0;  ends at <10; increment by 1){
  int digit = (int)(num%10); // casting the remainder(hence getting the last digit)
  num = num/10; //reducing the number
     if(the value at array[digit] is equal to the digit){
@@ -56,7 +56,7 @@ initialize the value at index 0 to -1
      System.out.println("The answer: " + i);
     }
   
- }//ending bracket for J loop
+ }//ending bracket for J loop](url)
  
 }//ending bracket for I loop
 
