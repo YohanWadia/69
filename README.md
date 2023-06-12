@@ -38,25 +38,25 @@ long num = (cube * X) + sq; // X stands for 10? or 100? or 1000? or 10000?
 declare an array of 10 boxes
 initialize the value at index 0 to -1
 
-[ for( int j = start with 0;  ends at <10; increment by 1){
- int digit = (int)(num%10); // casting the remainder(hence getting the last digit)
- num = num/10; //reducing the number
-    if(the value at array[digit] is equal to the digit){
-     means this digit was already saved, its a duplicate, just break the loop
-    }
-    else{
-     means all good we can save digit to the box at array[digit] 
-   }
+         for( int j = start with 0;  ends at <10; increment by 1){
+          int digit = (int)(num%10); // casting the remainder(hence getting the last digit)
+          num = num/10; //reducing the number
+             if(the value at array[digit] is equal to the digit){
+              means this digit was already saved, its a duplicate, just break the loop
+             }
+             else{
+              means all good we can save digit to the box at array[digit] 
+            }
 
-   //Now the if condition that gives us the final answer
-    if(j is equal to 9){
-     means we have reached all the way till the 10th digit
-     and the loop never broke. Hence all the 10 numbers never broke
-     the loop. That means this number satisfied all the criterias.
-     System.out.println("The answer: " + i);
-    }
+            //Now the if condition that gives us the final answer
+             if(j is equal to 9){
+              means we have reached all the way till the 10th digit
+              and the loop never broke. Hence all the 10 numbers never broke
+              the loop. That means this number satisfied all the criterias.
+              System.out.println("The answer: " + i);
+             }
   
- }//ending bracket for J loop](url)
+ }//ending bracket for J loop
  
 }//ending bracket for I loop
 
