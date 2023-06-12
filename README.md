@@ -68,3 +68,23 @@ And now the value of 9 has been saved to the array's box 9(index)
  THE FULLY FILLED ARRAY  [0][1][2][3][4][5][6][7][8][9]
  
  
+ ### <b>PSEUDO CODE<b> ======================================
+ 
+ declare an array of 10 boxes
+ forloop(from 0 till <10){
+  //extract digit & reshape num from eg.2 in Step3
+  int digit = (int)(num%10);
+  num = num/10;
+  
+  save the digit to its own box in the array  
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
