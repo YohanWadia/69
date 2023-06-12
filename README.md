@@ -10,15 +10,16 @@ There has to be exactly 1 of each digit and that means ther will be only 10 digi
 ### <b>String Concatenation<b>
  -The following code would convert the ints into String.
  -Then we can concatenate them.
+ -And then change it back into 1 large number.
  
-        int x = 12345;
-        int y = 678;
-        
-        String str1 = String.valueOf(x);
-        String str2 = String.valueOf(y);
-        String str3 = str1.concat(str2);
-        
-        System.out.println(str3); 
+int x = 12345;
+int y = 678;
+
+String str1 = String.valueOf(x);
+String str2 = String.valueOf(y);
+String str3 = str1.concat(str2);
+
+System.out.println(str3); 
 However it is an over kill involving the string class for something like this.        
  
 
