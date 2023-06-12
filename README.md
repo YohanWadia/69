@@ -7,7 +7,7 @@ Now we need to join them.. ie concatenate them. And in doing so we will observe 
 Please note there can be no repeat of a digit... if there is a digit that repeats for eg 012344456789 .. it cant be a solution.
 There has to be exactly 1 of each digit and that means ther will be only 10 digits.
 
-<b>String Concatenation<b>
+### <b>String Concatenation<b>
  -The following code would convert the ints into String.
  -Then we can concatenate them.
  
