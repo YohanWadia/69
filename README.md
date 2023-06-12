@@ -7,20 +7,37 @@ Now we need to join them.. ie concatenate them. And in doing so we will observe 
 Please note there can be no repeat of a digit... if there is a digit that repeats for eg 012344456789 .. it cant be a solution.
 There has to be exactly 1 of each digit and that means ther will be only 10 digits.
 
-### <b>String Concatenation<b>
+### <b>1. String Concatenation<b> ======================================
  -The following code would convert the ints into String.
  -Then we can concatenate them.
  -And then change it back into 1 large number.
  
 int x = 12345;
 int y = 678;
-
 String str1 = String.valueOf(x);
 String str2 = String.valueOf(y);
 String str3 = str1.concat(str2);
+System.out.println(str3);
 
-System.out.println(str3); 
-However it is an over kill involving the string class for something like this.        
+However it is an over kill involving the string class for something like this. 
+
+
+
+
+
+### <b>2. String Concatenation<b> ======================================
+ -The following code would convert the ints into String.
+ -Then we can concatenate them.
+ -And then change it back into 1 large number.
+ 
+int x = 12345;
+int y = 678;
+String str1 = String.valueOf(x);
+String str2 = String.valueOf(y);
+String str3 = str1.concat(str2);
+System.out.println(str3);
+
+However it is an over kill involving the string class for something like this.
  
 
 
