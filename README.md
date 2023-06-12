@@ -1,4 +1,4 @@
-# Step 2
+# Step 3
 <h2>Breaking the large number into its digits</h2>
 <pre>
 After getting the large number that is a join of the square and cube, We will need to test its digits.
