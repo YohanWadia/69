@@ -14,6 +14,6 @@ For those who still want to make the code more efficient there is an Advanced br
 
 <h2>How to Find the Branches</h2>
 As the image shows... Click on "main" and you will notice a dropdown list with all the branches. You can select which ever step you need from there. But please go step by step. <br>
-<img src="capture.png">
+<img src="[capture.png](https://github.com/YohanWadia/69/blob/main/Capture.png?raw=true)">
 
 
