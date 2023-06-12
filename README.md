@@ -28,7 +28,8 @@ NOTICE... we have only filled in those digits which exist in the number.
 In the perfect number... all 10 boxes will be filled up from 0 - 9.
 Hence no digit must repeat.
  
-but this particular number fails since 5 does repeat... 
+but this particular number fails since 5 does repeat...and all the boxes
+of the array havent been filled up.
 
 
 ### <b>Digit Extraction<b> ======================================
