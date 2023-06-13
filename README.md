@@ -16,53 +16,54 @@ And now the value of 9 has been saved to the array's box 9(index)
 ### <b>Example<b> ======================================
  Say the number is 8795460123. (has all 10 digits)
  this is what should happen when you loop 10 times
+ we will use j for this loop as I has already been used
  
- when i=0 in the loop:
+ when j=0 in the loop:
  the extracted digit is 3
  and the number is reduced to 879546012
  and the array looks like this [0][0][0][3][0][0][0][0][0][0] 
  
- when i=1 in the loop:
+ when j=1 in the loop:
  the extracted digit is 2
  and the number is reduced to 87954601
  and the array looks like this [0][0][2][3][0][0][0][0][0][0]
  
- when i=2 in the loop:
+ when j=2 in the loop:
  the extracted digit is 1
  and the number is reduced to 8795460
  and the array looks like this [0][1][2][3][0][0][0][0][0][0]
  
- when i=3 in the loop:
+ when j=3 in the loop:
  the extracted digit is 0
  and the number is reduced to 879546
-  and the array looks like this [0][1][2][3][0][0][0][0][0][0]
+ and the array looks like this [0][1][2][3][0][0][0][0][0][0]
  
- when i=4 in the loop:
+ when j=4 in the loop:
  the extracted digit is 6 
  and the number is reduced to 87954
-  and the array looks like this [0][1][2][3][0][0][6][0][0][0]
+ and the array looks like this [0][1][2][3][0][0][6][0][0][0]
  
- when i=5 in the loop:
+ when j=5 in the loop:
  the extracted digit is 4
  and the number is reduced to 8795
-  and the array looks like this [0][1][2][3][4][0][6][0][0][0]
+ and the array looks like this [0][1][2][3][4][0][6][0][0][0]
  
- when i=6 in the loop:
+ when j=6 in the loop:
  the extracted digit is 5
  and the number is reduced to 879
-   and the array looks like this [0][1][2][3][4][5][6][0][0][0]
+ and the array looks like this [0][1][2][3][4][5][6][0][0][0]
  
- when i=7 in the loop:
+ when j=7 in the loop:
  the extracted digit is 9
  and the number is reduced to 87
-   and the array looks like this [0][1][2][3][4][5][6][0][0][9]
+ and the array looks like this [0][1][2][3][4][5][6][0][0][9]
  
- when i=8 in the loop:
+ when j=8 in the loop:
  the extracted digit is 7 
  and the number is reduced to 8
  and the array looks like this [0][1][2][3][4][5][6][7][0][9]
 
- when i=9(THE LAST STEP) in the loop:
+ when j=9(THE LAST STEP) in the loop:
  the extracted digit is 8
  and NO DIGITS ARE LEFT IN THE NUMBER
  THE FULLY FILLED ARRAY  [0][1][2][3][4][5][6][7][8][9]
