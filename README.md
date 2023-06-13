@@ -5,7 +5,8 @@ However, Presh doesnt break it down as an IT guy. We will use a step by step ana
 <br><br>
 
 <h2>How to follow along and solve this step by step</h2>
-Every step used to solve this problem is explained in its own branch. Every branch has the requirement written in english pseudo code & and a hint to the real code. As you finish the step you visit the next branch to view the next step... and continue from there. If you proceed correctly you will arrive at the correct answer. 
+Every step used to solve this problem is explained in its own branch. Every branch has the requirement written in english pseudo code & and a hint to the real code. As you finish the step you visit the next branch to view the next step... and continue from there. If you proceed correctly you will arrive at the correct answer.
+ONLY the Advanced branch has the java code.
 <br><br>
 
 <h2>Advanced User</h2>
